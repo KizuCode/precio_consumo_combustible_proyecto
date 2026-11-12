@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignorar datos pesados y bases locales
+data/
+*.csv
+*.db
+*.parquet
+
+# Entornos virtuales
+venv/
+__pycache__/
+.env
